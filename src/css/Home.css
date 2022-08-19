@@ -59,7 +59,7 @@ span.sweet{
     /* animation: spin_words 6s infinite; */
 
 }
-h3.home__text{
+/* h3.home__text{ */
     /* font-size: 50px;
     font-weight: 800;
     font-family: Montserrat,sans-serif;
@@ -70,7 +70,7 @@ h3.home__text{
     /* opacity: 1; */
     /* display: block; */
     
-}
+/* } */
 @keyframes spin_words{
  10%{
     transform: translateY(-112%);
