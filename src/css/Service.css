@@ -1,10 +1,19 @@
+@media screen and (min-width: 461px){
 h1.heading {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     font-family: Poppins,sans-serif;
     font-weight: 700;
     margin-bottom: 10px;
-}
+}}
+@media screen and (max-width: 460px){
+    h1.heading {
+        font-size: 30px;
+        text-align: center;
+        font-family: Poppins,sans-serif;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }}
 p.heading.p__color {
     margin-bottom: 0;
     text-align: center;

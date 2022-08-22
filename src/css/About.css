@@ -5,13 +5,23 @@ img.about__img{
     border-radius: 10px;
     width: 70%;
 }
+@media screen and (min-width: 451px){
 h1.about__heading{
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
     font-family: Montserrat,sans-serif;
     font-size: 60px;
-}
+}}
+@media screen and (max-width: 450px){
+    h1.about__heading{
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-align: start;
+        font-family: Montserrat,sans-serif;
+        font-size: 40px;
+    }}
+    /* @media screen and (min-width: 350px) { */
 button.about.btn.pointer {
     text-transform: capitalize;
     width: 195px;
@@ -19,6 +29,7 @@ button.about.btn.pointer {
     font-size: 18px;
     transition: .4s ease;
 }
+
 .about__button{
     padding: 20px 0px;
 }
@@ -49,9 +60,10 @@ a.bottom__to__top.active{
 @media only screen and (max-width: 425px){
 button.about.btn.pointer {
     text-transform: capitalize;
-    width: 165px;
+    width: 140px;
     height: 50px;
     font-size: 13px;
     transition: .4s ease;
+    margin-right: auto;
 }
 }

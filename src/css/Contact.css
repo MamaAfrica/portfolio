@@ -1,9 +1,14 @@
 .contact{
     background-color: #191919;
 }
+@media screen and (min-width: 351px){
 h1.hire__text {
     font-size: 60px;
-}
+}}
+@media screen and (max-width: 450px){
+    h1.hire__text {
+        font-size: 40px;
+    }}
 p.hire__text{
     font-size: 18px;
     line-height: 30px;
