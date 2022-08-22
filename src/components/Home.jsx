@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import '../App.css'
-import '../css/Home.css'
+import '../App.css';
+import '../css/Home.css';
 import Typed from 'typed.js';
+import logoport from '../media/logoport.jpg'
 
 function Home(){
   // Create reference to store the DOM element containing the animation
@@ -30,6 +31,14 @@ function Home(){
       typed.current.destroy();
     }
   }, [])
+  // changecolor
+//   var links = document.getElementsByClassName('changeable');
+// function changeColorToRed(e) {
+//     e.target.style.color = e.target.style.color ? null : 'red';
+// }
+// for (var i = 0; i < links.length; i++) {
+//     links[i].addEventListener('click', changeColorToRed);
+// }
     // fixed Header
     window.addEventListener("scroll", function () {
       const header = document.querySelector(".header");
@@ -42,13 +51,14 @@ function Home(){
           <div className='home__bg'>
 <div className="header d__flex align__items__center pxy__30">
 <div className='navigation pxy__30'>
+  <img src={logoport} alt='logo' className='logo'/>
 <ul className='navbar d__flex'>
-  <a href='#Home'><li className='nav__items mx__15'>Home</li></a>
-  <a href='#About'><li className='nav__items mx__15'>About</li></a>
-  <a href='#Services'><li className='nav__items mx__15'>Service</li></a>
-  <a href='#Portfolio'><li className='nav__items mx__15'>Portfolio</li></a>
-  <a href='#Blog'><li className='nav__items mx__15'>Blog</li></a>
-  <a href='#Contact'><li className='nav__items mx__15'>Contact</li></a>
+  <a href='#Home' className='changeable'><li className='nav__items mx__15 changeable'>Home</li></a>
+  <a href='#About' className='changeable'><li className='nav__items mx__15 changeable'>About</li></a>
+  <a href='#Services' className='changeable'><li className='nav__items mx__15 changeable'>Service</li></a>
+  <a href='#Portfolio' className='changeable'><li className='nav__items mx__15 changeable'>Portfolio</li></a>
+  <a href='#Blog' className='changeable'><li className='nav__items mx__15 changeable'>Blog</li></a>
+  <a href='#Contact' className='changeable'><li className='nav__items mx__15 changeable'>Contact</li></a>
 </ul>
 </div>
  {/* Toogle Menu */}
@@ -96,14 +106,14 @@ function Home(){
 <div className='container' id='homeContent'>
   <div className='home__content'>
     <div className='home__meta'>
-      <h1 className='home__text pz__10'>
+      <h1 className='home__text pz__10 welcome'>
         WELCOME TO MY WORLD
       </h1>
-      <h2 className='home__text pz__10'>
+      <h2 className='home__text pz__10 typedsize'>
         Hi, I'm Miracle Nnabuko
       </h2>
       <div>
-        <span style={{ whiteSpace: "pre" }} className='sweet' ref={el} />
+        <span style={{ whiteSpace: "pre", }} className='sweet typedsize' ref={el} />
       </div>
     </div>
     </div>

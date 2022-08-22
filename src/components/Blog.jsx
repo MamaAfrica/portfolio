@@ -3,9 +3,6 @@ import "../css/Blog.css";
 import ALXse from '../media/ALXse.png'
 import CFstaticweb from '../media/CFstaticweb.png'
 import myPortfolio from '../media/myPortfolio.png'
-// import Blog1 from './img/blog-01.jpg';
-// import Blog2 from './img/blog-02.jpg';
-// import Blog3 from './img/blog-03.jpg';
 
 function Blog() {
   return (
