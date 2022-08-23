@@ -48,7 +48,7 @@ function Home(){
    const [show, setShow] = useState(false);
     return(
         <div className='home' id='Home'>
-          <div className='home__bg'>
+          <div className='home__bg' alt='homeimg'>
 <div className="header d__flex align__items__center pxy__30">
 <div className='navigation pxy__30'>
   <img src={logoport} alt='logo' className='logo'/>

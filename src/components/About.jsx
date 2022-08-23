@@ -14,7 +14,7 @@ function About() {
             <div className='container'>
                 <div className='row'>
                     <div className='col__2'>
-                        <img src={about} alt='' className='about__img' />
+                        <img src={about} alt='aboutimg' className='about__img' />
                     </div>
                     <div className='col__2'>
                         <h1 className='about__heading'>
