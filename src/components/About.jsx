@@ -1,6 +1,6 @@
 import '../App.css';
 import '../css/About.css';
-import about from '../media/About1.png';
+import about from '../media/Aboutpix.png';
 import CV from '../media/CV.pdf'
 
 function About() {
