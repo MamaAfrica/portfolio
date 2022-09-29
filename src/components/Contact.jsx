@@ -1,22 +1,30 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 import '../css/Contact.css';
 // import contactImg from "./img/about-9.jpg"
 
 function Contact() {
     const form = useRef();
+    const [username, setUserName] = useState('');
+    const [useremail, setUserEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
 
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_twhywe8', 'template_gu3dn1s', form.current, '32B24Hxyp2N6w4dze')
+      emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
              // alert("successful message")
             const success = document.querySelector('.success');
             const danger = document.querySelector('.danger');
-            if (result.text == 'OK'){
+            if (result.text === 'OK'){
                 success.style.display ='block'
+                setUserName('');
+                setUserEmail('');
+                setSubject('');
+                setMessage('');
             }
             else{
                 danger.style.display ='block'
@@ -41,10 +49,10 @@ function Contact() {
                            <p className="hire__text white"><strong>+234 7064 348 121</strong> or email <strong>nnabukomiracle@gmail.com</strong></p>
                         </div>
                         <div className="input__box">
-                           <input type="text" className="contact name" placeholder="Your name *" name='user_name' required/>
-                           <input type="email" className="contact email" placeholder="Your Email *" name='user_email' required/>
-                           <input type="text" className="contact subject" placeholder="Write a Subject" name='subject' />
-                           <textarea name="message" id="message" placeholder="Write Your message" required></textarea>
+                           <input type="text" className="contact name" placeholder="Your name *" name='user_name' onChange={e => setUserName(e.target.value)} value={username} required/>
+                           <input type="email" className="contact email" placeholder="Your Email *" name='user_email' onChange={e => setUserEmail(e.target.value)} value={useremail} required/>
+                           <input type="text" className="contact subject" placeholder="Write a Subject" name='subject' onChange={e => setSubject(e.target.value)} value={subject} />
+                           <textarea name="message" id="message" placeholder="Write Your message" onChange={e => setMessage(e.target.value)} value={message} required></textarea>
                            <button className="btn contact pointer" type="submit">Submit</button>
                         </div>
                         <div className='message'>
