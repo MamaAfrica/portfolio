@@ -1,6 +1,6 @@
 
 import "../css/Blog.css";
-import ALXse from '../media/ALXse.png'
+import cloudcert from '../media/cloudcert.jpg'
 import CFstaticweb from '../media/CFstaticweb.png'
 import myPortfolio from '../media/myPortfolio.png'
 
@@ -22,13 +22,13 @@ function Blog() {
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
                          <div className="project__img__box">
-                             <img src={ALXse} alt="" className="project__img" />
+                             <img src={cloudcert} alt="" className="project__img" />
                          </div>
                          <div className="mask__effect"></div>
                      </div>
                       <div className="Blog__meta absolute">
-                         <h5 className="project__text">ALX Software Engineering Program</h5>
-                         <h4 className="project__text">I have just been accepted into the ALX SE Program</h4>
+                         <h5 className="project__text">ALX-T Cloud Developer Program Completed</h5>
+                         <h4 className="project__text">I have just obtained the cloud developer nanodegree certificate from Udacity</h4>
                          <a href="#" className="blog project__btn btn">Read More</a>
                        </div>
                  </div>

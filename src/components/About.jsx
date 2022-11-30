@@ -23,7 +23,7 @@ function About() {
                         <div className="about__meta">
                             <p className="about__text p__color">
                             My name is Miracle Nnabuko, from Nigeria. I currrently have a Bachelor's degree in Electrical/Electronic Engineering, 
-with over four years combined pre-degree and post-degree experience in embedded systems, application monitoring, web development, Python and AVR C/C++, Data Science, network troubleshooting, configuration and maintenance.
+with over five years combined pre-degree and post-degree experience in embedded systems, application monitoring, web development, Python and AVR C/C++, Data Science and networking.
                             </p>
                             <p className="about__text p__color">
                 
@@ -42,10 +42,10 @@ I am eager to be part of an institution that provides solutions to problems thro
                         • Application Monitoring 
     (Dynatrace)</p>
     <p className='about__text p__color'>
-                        • Microsoft Azure</p> 
+                        • Microsoft Azure, AWS</p> 
                         
                             <div className="about__button d__flex align__items__center">
-                            <a href={CV} download="CV">
+                            <a href={CV} download="nnabukoCV">
                             <button className="about btn pointer">Download Cv</button>
                             </a>
                             <a href="#Contact">
