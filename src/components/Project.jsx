@@ -32,7 +32,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Embedded Poultry Farm</h5>
                      <h4 className="project__text">A smart farm using Arduino</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <a href="https://www.researchgate.net/publication/334376500_Design_and_Implementation_of_an_Embedded_Poultry_Farm" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -49,7 +49,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Django</h5>
                      <h4 className="project__text">Events Registration Form</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <a href="https://dynaeventregform.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
@@ -66,7 +66,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Django application</h5>
                      <h4 className="project__text">Email Scheduler</h4>
-                     <a href="#" className="project__btn">View Details</a>
+                     <a href="https://mailschedulerbot.herokuapp.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
