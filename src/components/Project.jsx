@@ -49,7 +49,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Django</h5>
                      <h4 className="project__text">Events Registration Form</h4>
-                     <a href="https://dynaeventregform.herokuapp.com/" className="project__btn">View Details</a>
+                     <a href="https://eventregapp.miraset.org/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
