@@ -66,7 +66,7 @@ function Project() {
                      <div className="project__meta absolute">
                      <h5 className="project__text">Django application</h5>
                      <h4 className="project__text">Email Scheduler</h4>
-                     <a href="https://mailschedulerbot.herokuapp.com/" className="project__btn">View Details</a>
+                     <a href="https://emailbot.autosyshub.com/" className="project__btn">View Details</a>
                      </div>
                  </div>
              </div>
