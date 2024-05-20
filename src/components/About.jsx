@@ -22,8 +22,7 @@ function About() {
                         </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                            My name is Miracle Nnabuko, from Nigeria. I currrently have a Bachelor's degree in Electrical/Electronic Engineering, 
-with over five years combined pre-degree and post-degree experience in embedded systems, application monitoring, web development, Python and AVR C/C++, Data Science and networking.
+                            My name is Miracle Nnabuko, from Nigeria. I am an Observability Engineer with a background in Electrical and Electronic Engineering. I have 5 years of Technical experience working with Application monitoring tools, python, Linux, Azure, AWS, web development, embedded systems, AVR C/C++, networking, and implementing DevOps practices. I have a strong affinity for problem-solving and critical reasoning.
                             </p>
                             <p className="about__text p__color">
                 
@@ -34,15 +33,16 @@ I am eager to be part of an institution that provides solutions to problems thro
                             CORE COMPETENCIES
                         </h2>
                      
-                        <p className='about__text p__color'>• Python and AVR C/C++</p> 
-                        <p className='about__text p__color'>
-                        • HTML, CSS, JavaScript, React</p>
-    <p className='about__text p__color'>• Web development using Django</p>
-    <p className='about__text p__color'>
-                        • Application Monitoring 
-    (Dynatrace)</p>
-    <p className='about__text p__color'>
-                        • Microsoft Azure, AWS</p> 
+                        <p className='about__text p__color'>• Azure DevOps</p> 
+                        <p className='about__text p__color'>• Docker, Kubernetes</p>
+                        <p className='about__text p__color'>• CI/CD - Jenkins, Travis CI</p>
+                        <p className='about__text p__color'>• IaC - Terraform</p>
+                        <p className='about__text p__color'>• Ansible</p>
+                        <p className='about__text p__color'>• Application Monitoring - Dynatrace, Datadog</p>
+                         <p className='about__text p__color'>• Microsoft Azure, AWS</p>
+                         <p className='about__text p__color'>• Python and AVR C/C++</p>
+                         <p className='about__text p__color'>• HTML, CSS, JavaScript, React</p>
+                         <p className='about__text p__color'>• Web development</p> 
                         
                             <div className="about__button d__flex align__items__center">
                             <a href={CV} download="nnabukoCV">

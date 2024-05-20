@@ -13,7 +13,7 @@ function Home(){
   React.useEffect(() => {
     const options = {
     	strings: [
-        '<strong>Python Programmer</strong>',
+        '<strong>DevOps Engineer</strong>',
         '<strong>Embedded Systems Engineer</strong>'
       ],
       typeSpeed: 50,
