@@ -1,7 +1,6 @@
 import '../App.css';
 import '../css/About.css';
 import about from '../media/Aboutpix.png';
-import CV from '../media/CV.pdf'
 
 function About() {
      //  Up To Top Btn
@@ -45,7 +44,7 @@ I am eager to be part of an institution that provides solutions to problems thro
                          <p className='about__text p__color'>• Web development</p> 
                         
                             <div className="about__button d__flex align__items__center">
-                            <a href={CV} download="nnabukoCV">
+                            <a href="https://drive.google.com/file/d/1mTWhVSWlUO3naQivPa1PsgI6--R5LqQh/view?usp=sharing">
                             <button className="about btn pointer">Download Cv</button>
                             </a>
                             <a href="#Contact">
