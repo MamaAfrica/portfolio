@@ -17,6 +17,101 @@ function Service() {
 
       <div className="container">
         <div className="row">
+        <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon">
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">DevOps</h1>
+                <p className="p service__text p__color">
+                Bridge the gap between development and operations teams 
+                </p>
+                {/* <p className="p service__text p__color">I use Python and Power B.</p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon">
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">Monitoring and Observability</h1>
+                <p className="p service__text p__color">
+                  Full visibility into your applications
+                </p>
+                <p className="p service__text p__color">
+                  and infrastructure using Dynatrace
+                </p>
+                {/* <p className="p service__text p__color">close to the earth.</p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col__3">
+            <div className="service__box pointer">
+              <div className="icon">
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  height="1em"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div className="service__meta">
+                <h1 className="service__text">Cloud computing</h1>
+                <p className="p service__text p__color">
+                  I help you leverage the benefits
+                </p>
+                <p className="p service__text p__color">
+                  offered by the cloud.
+                </p>
+                <p className="p service__text p__color">Azure and AWS.</p>
+              </div>
+            </div>
+          </div>
+
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
@@ -79,105 +174,6 @@ function Service() {
               </div>
             </div>
           </div>
-
-          <div className="col__3">
-            <div className="service__box pointer">
-              <div className="icon">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
-              </div>
-              <div className="service__meta">
-                <h1 className="service__text">Monitoring and Observability</h1>
-                <p className="p service__text p__color">
-                  Full visibility into your applications
-                </p>
-                <p className="p service__text p__color">
-                  and infrastructure using Dynatrace
-                </p>
-                {/* <p className="p service__text p__color">close to the earth.</p> */}
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="service__box pointer">
-              <div className="icon">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                  <line x1="8" y1="21" x2="16" y2="21"></line>
-                  <line x1="12" y1="17" x2="12" y2="21"></line>
-                </svg>
-              </div>
-              <div className="service__meta">
-                <h1 className="service__text">Data Analysis</h1>
-                <p className="p service__text p__color">
-                  Gain valuable insights by analysing 
-                </p>
-                <p className="p service__text p__color">
-                  your data using Python.
-                </p>
-                {/* <p className="p service__text p__color">I use Python and Power B.</p> */}
-              </div>
-            </div>
-          </div>
-
-          <div className="col__3">
-            <div className="service__box pointer">
-              <div className="icon">
-                <svg
-                  stroke="currentColor"
-                  fill="none"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  height="1em"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="9" cy="7" r="4"></circle>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                </svg>
-              </div>
-              <div className="service__meta">
-                <h1 className="service__text">Cloud computing</h1>
-                <p className="p service__text p__color">
-                  I help you leverage the benefits
-                </p>
-                <p className="p service__text p__color">
-                  offered by the cloud.
-                </p>
-                <p className="p service__text p__color">Azure and AWS.</p>
-              </div>
-            </div>
-          </div>
-
           <div className="col__3">
             <div className="service__box pointer">
               <div className="icon">
