@@ -2,7 +2,7 @@
 import "../css/Blog.css";
 import cloudcert from '../media/cloudcert.jpg'
 import CFstaticweb from '../media/CFstaticweb.png'
-import myPortfolio from '../media/myPortfolio.png'
+import DevOpscert from '../media/devOpsExpert.jpg'
 
 function Blog() {
   return (
@@ -18,6 +18,22 @@ function Blog() {
       </div>
       <div className="container">
           <div className="row">
+          <div className="col__3">
+              <div className="project__box pointer relative">
+                     <div className="project__box__img pointer relative">
+                         <div className="project__img__box">
+                             <img src={DevOpscert} alt="" className="project__img" />
+                         </div>
+                         <div className="mask__effect"></div>
+                     </div>
+                      <div className="Blog__meta absolute">
+                         <h5 className="project__text">Certified Azure DevOps Expert</h5>
+                         <h4 className="project__text">I am excited to have obtained the Microsoft Azure DevOps Expert Certification!</h4>
+                         <a href="#" className="blog project__btn btn">Read More</a>
+                       </div>
+                 </div>
+              </div>
+
               <div className="col__3">
               <div className="project__box pointer relative">
                      <div className="project__box__img pointer relative">
@@ -45,22 +61,6 @@ function Blog() {
                       <div className="Blog__meta absolute">
                          <h5 className="project__text">ALX Cloud developer Program</h5>
                          <h4 className="project__text">Deployed a static website on AWS using cloudfront</h4>
-                         <a href="#" className="blog project__btn btn">Read More</a>
-                       </div>
-                 </div>
-              </div>
-
-              <div className="col__3">
-              <div className="project__box pointer relative">
-                     <div className="project__box__img pointer relative">
-                         <div className="project__img__box">
-                             <img src={myPortfolio} alt="" className="project__img" />
-                         </div>
-                         <div className="mask__effect"></div>
-                     </div>
-                      <div className="Blog__meta absolute">
-                         <h5 className="project__text">My Portfolio Website</h5>
-                         <h4 className="project__text">I am excited to have built and launched my Portfolio website using react</h4>
                          <a href="#" className="blog project__btn btn">Read More</a>
                        </div>
                  </div>
