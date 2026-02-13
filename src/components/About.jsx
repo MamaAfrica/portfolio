@@ -44,7 +44,7 @@ I am eager to be part of an institution that provides solutions to problems thro
                          <p className='about__text p__color'>• Web development</p> 
                         
                             <div className="about__button d__flex align__items__center">
-                            <a href="https://drive.google.com/file/d/1_mochVwVsaQ2HEBgOWi-yJVzWfKZYt9Y/view?usp=sharing">
+                            <a href="https://drive.google.com/file/d/1jcgHAJcWhdr5qFQdd8I4iIihsoi8xBxG/view?usp=sharing">
                             <button className="about btn pointer">Download Cv</button>
                             </a>
                             <a href="#Contact">
