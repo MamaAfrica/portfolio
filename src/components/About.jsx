@@ -21,7 +21,7 @@ function About() {
                         </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                            My name is Miracle Nnabuko, from Nigeria. I am an Observability Engineer with a background in Electrical and Electronic Engineering. I have 5 years of Technical experience working with Application monitoring tools, python, Linux, Azure, AWS, web development, embedded systems, AVR C/C++, networking, and implementing DevOps practices. I have a strong affinity for problem-solving and critical reasoning.
+                            My name is Miracle Nnabuko. I am a DevOps Engineer with a background in Electrical and Electronic Engineering. I have over 7 years of Technical experience working with SRE tools such as Dynatrace and Datadog, and implementing DevOps practices. I have an excellent understanding of the following programming languages/technologies: Python, Azure DevOps, Terraform, Jenkins, Django, SQL, and JavaScript. If you are looking for someone who can tackle problems and bridge the gap between development and operations teams, I might be what you are looking for.
                             </p>
                             <p className="about__text p__color">
                 
@@ -44,7 +44,7 @@ I am eager to be part of an institution that provides solutions to problems thro
                          <p className='about__text p__color'>• Web development</p> 
                         
                             <div className="about__button d__flex align__items__center">
-                            <a href="https://drive.google.com/file/d/1UyfxGzvfHe_TEx_QhbLQlwIQFdu-wxMx/view?usp=sharing">
+                            <a href="https://drive.google.com/file/d/1_mochVwVsaQ2HEBgOWi-yJVzWfKZYt9Y/view?usp=sharing">
                             <button className="about btn pointer">Download Cv</button>
                             </a>
                             <a href="#Contact">

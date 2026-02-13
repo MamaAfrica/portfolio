@@ -14,7 +14,7 @@ function Home(){
     const options = {
     	strings: [
         '<strong>DevOps Engineer</strong>',
-        '<strong>Embedded Systems Engineer</strong>'
+        '<strong>Site Reliability Engineer</strong>'
       ],
       typeSpeed: 50,
       backSpeed: 50,
